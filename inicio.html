@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vamos contar marcando os pares</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <P>Início: <input type="number" name="inicio" id="txti"></P>
+            <p id="fim">Fim: <input type="number" name="fim" id="txtf"></p>
+            <p id="passo">Passo: <input type="number" name="passo" id="txtp"></p>
+
+            <p id="btn"><input type="button" value="Contar" id="cont" onclick="contar()">
+                <input type="reset" id="rst">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima e aperte o botão
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Melk Azevedo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
